@@ -1,0 +1,11 @@
+version: "4"
+services:
+  housing_api:
+    build: .
+      context:
+    ports:
+      - "8887:80"
+    volumes:
+      - ./test:/mnt/IB19G9chatbot:shared
+    devices:
+      - /dev/fuse

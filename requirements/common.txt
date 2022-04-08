@@ -1,0 +1,6 @@
+fastapi
+nltk
+json
+pickle
+tensorflow
+sklearn
